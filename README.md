@@ -18,7 +18,7 @@ To create a restore container:
 ```
 docker-compose run --rm \
   --name postgis_restore \
-  --volumes-from postgis \
+  postgis \
   sh -c "restore.sh 2018-11-05 20:00:00"
 ```
 
