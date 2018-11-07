@@ -5,7 +5,7 @@ A PostGIS Docker image based on [mdillon/postgis][1].
 ## Backup
 
 The backup script creates a monthly base backup and removes base backups and
-WAL files older than 1 year old. Run it using:
+WAL files older than one year old. Run it using:
 
 ```
 docker-compose exec postgis sh -c "backup.sh"
